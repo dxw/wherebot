@@ -5,6 +5,9 @@ gem "dotenv-rails", groups: [:development, :test]
 gem "slack-ruby-bot"
 gem "async-websocket", "~>0.8.0"
 gem "rake"
+gem "puma"
+gem "sinatra"
+gem "foreman"
 
 group :development, :test do
   gem "rack-test"
