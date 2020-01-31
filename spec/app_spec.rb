@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe WhereBot do
+describe SlackRubyBot::Bot do
   let(:app) { SlackRubyBot::Server.new }
   let(:client) { app.send(:client) }
   let(:message_hook) { SlackRubyBot::Hooks::Message.new }
