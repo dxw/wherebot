@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
-ruby '2.4.0'
+ruby '2.6.2'
 
-gem 'sinatra', '~> 2.0.0'
-gem 'slack-ruby-client', '~> 0.8.1'
-gem 'dotenv', '~> 2.2', '>= 2.2.1'
+gem 'sinatra'
+gem 'slack-ruby-client'
+gem 'dotenv'

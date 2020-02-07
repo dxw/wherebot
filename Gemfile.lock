@@ -47,12 +47,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dotenv (~> 2.2, >= 2.2.1)
-  sinatra (~> 2.0.0)
-  slack-ruby-client (~> 0.8.1)
+  dotenv
+  sinatra
+  slack-ruby-client
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.6.2p47
 
 BUNDLED WITH
-   1.15.1
+   1.17.2
