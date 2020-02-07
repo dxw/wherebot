@@ -1,19 +1,6 @@
-source "https://rubygems.org"
+source 'http://rubygems.org'
+ruby '2.4.0'
 
-gem "dotenv-rails", groups: [:development, :test]
-
-gem "slack-ruby-bot"
-gem "async-websocket", "~>0.8.0"
-gem "rake"
-gem "puma"
-gem "sinatra"
-gem "foreman"
-
-group :development, :test do
-  gem "rack-test"
-  gem "rspec"
-  gem "vcr"
-  gem "webmock"
-  gem "standard"
-  gem "pry"
-end
+gem 'sinatra', '~> 2.0.0'
+gem 'slack-ruby-client', '~> 0.8.1'
+gem 'dotenv', '~> 2.2', '>= 2.2.1'
