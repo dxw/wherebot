@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# script/server: Launch the application and any extra required processes
+#                locally.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+# boot the server
+bundle exec rails s -p 3000 -b '0.0.0.0'

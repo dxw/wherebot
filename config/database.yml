@@ -1,15 +1,15 @@
 default: &default
   adapter: postgresql
-  url: <%= ENV["DATABASE_URL"] %>
   encoding: unicode
-  template: template0
-  pool: <%= Integer(ENV.fetch('RAILS_MAX_THREADS') { 5 }) %>
+  host: db
+  username: postgres
+  password:
+  pool: 5
 
 development:
   <<: *default
+  database: wherebot_development
 
 test:
   <<: *default
-
-production:
-  <<: *default
+  database: wherebot_test
